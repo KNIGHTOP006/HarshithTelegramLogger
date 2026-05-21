@@ -14,9 +14,9 @@ and progress photos — all stored in Google Sheets as your database.
 | ⚖️ Weight tracking | `/weight 82.4` → logged to Sheets |
 | 📸 Progress photos | Send photo with `/photo` → uploaded to Drive |
 | 📊 Daily summary | `/today` → calories, macros, remaining |
-| 📅 Weekly summary | `/week` → avg calories, consistency % |
-| 🗓 Monthly summary | `/month` → weight change, highest/lowest day |
-| 🏆 Yearly summary | `/year` → streaks, best month, total stats |
+| 📅 Weekly summary | `/week` → avg calories, consistency %, weekly trasformation video |
+| 🗓 Monthly summary | `/month` → weight change, highest/lowest day , monthly trasformation video |
+| 🏆 Yearly summary | `/year` → streaks, best month, total stats, yearly trasformation video|
 | 🔥 Streak system | Tracks consecutive days of logging |
 | 🎯 Calorie goals | `/goal 1800` → remaining shown in `/today` |
 

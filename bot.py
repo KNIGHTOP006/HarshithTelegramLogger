@@ -633,8 +633,12 @@ def main():
     app = Application.builder().token(config.TELEGRAM_BOT_TOKEN).build()
 
     # Schedule daily 7am reminder
-    app.job_queue.run_daily(daily_reminder, time=datetime.time(hour=7, minute=0))
-    logger.info("Daily reminder scheduled for 07:00")
+    if app.job_queue:
+        app.job_queue.run_daily(
+            daily_reminder,
+            time=datetime.time(hour=7, minute=0)
+        )
+        logger.info("Daily reminder scheduled for 07:00")
 
     # ── Register handlers ─────────────────────────────────────────────────────
     app.add_handler(CommandHandler("start",  start_handler))
