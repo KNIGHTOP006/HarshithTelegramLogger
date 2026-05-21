@@ -19,6 +19,7 @@ import logging
 import os
 import shutil
 from pathlib import Path
+PORT = int(os.environ.get("PORT", 10000))
 
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
