@@ -1,0 +1,44 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Fitness AI Tracker – Environment Variables
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. Copy this file:  cp .env.example .env
+# 2. Fill in your values below (never commit .env to git!)
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+# ── Telegram ──────────────────────────────────────────────────────────────────
+# Get from @BotFather on Telegram (create a new bot with /newbot)
+TELEGRAM_BOT_TOKEN=8869179108:AAF4CWc_tt9HcG_3ay7F1Bg4dIYDIzeDdo8
+
+
+# ── Gemini AI ─────────────────────────────────────────────────────────────────
+# Get from https://aistudio.google.com/app/apikey (free tier available)
+GEMINI_API_KEY=AIzaSyB8TTg4pn050ifNfckHWRQaZY0mq5JnZrw
+
+
+# ── Google Sheets ─────────────────────────────────────────────────────────────
+# The ID is the long string in your Google Sheet URL:
+# https://docs.google.com/spreadsheets/d/  →THIS PART←  /edit
+GOOGLE_SHEET_ID=1K73oFwwdAX0JuA6oxjnejwG_RhZI7pmKIpbc0aBU9_s
+
+# Path to the service account JSON file you downloaded from Google Cloud Console
+GOOGLE_CREDENTIALS_FILE=credentials.json
+
+
+# ── Google Drive ──────────────────────────────────────────────────────────────
+# Create a folder in Drive, right-click → Get link, copy the ID from the URL:
+# https://drive.google.com/drive/folders/  →THIS PART←
+GOOGLE_DRIVE_FOLDER_ID=16Ua7ivtSqRGgwgtK5VyZNl0deHjqTVbG
+
+# ── Whisper Settings ──────────────────────────────────────────────────────────
+# Options: tiny | base | small | medium | large
+# "base" (~140MB) recommended for VPS. "tiny" (~75MB) for very limited RAM.
+WHISPER_MODEL_SIZE=base
+
+
+# ── App Settings ──────────────────────────────────────────────────────────────
+# Default daily calorie target (users can override with /goal command)
+DEFAULT_CALORIE_GOAL=2000
+
+# Temporary directory for downloaded voice files and photos
+TEMP_DIR=/tmp/fitness_bot

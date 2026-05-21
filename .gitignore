@@ -1,0 +1,46 @@
+# Secrets – never commit these!
+.env
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Whisper model cache
+.cache/
+
+# Temp files downloaded by bot
+/tmp/fitness_bot/
+*.ogg
+*.mp3
+*.wav
+
+# Progress photos stored locally
+photos/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -1,0 +1,13 @@
+python-telegram-bot==21.6
+gspread
+google-auth
+google-auth-oauthlib
+google-api-python-client
+python-dotenv
+httpx
+google-genai
+pillow
+numpy
+opencv-python
+moviepy
+pydub
